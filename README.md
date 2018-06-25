@@ -11,6 +11,7 @@ The stack class is an O(1) for space and time class that implements a stack (Las
 #### Methods
 
 ##### `Stack.push(item1 [, item2...])`
+
 Push one or more items onto the stack. The last item pushed will be the first item popped (removed) from the stack.
 
 ##### `Stack.pop()`
@@ -18,6 +19,7 @@ Push one or more items onto the stack. The last item pushed will be the first it
 Remove the last item pushed onto the stack.
 
 #### `Stack.peek()`
+
 Return the value at the top of the stack without removing it. Operates just like Stack.pop() without actually removing the item from the stack.
 
 ### Queue class
@@ -27,10 +29,13 @@ The queueu class is an O(1) for space and time class that implements a queue, a 
 #### Methods
 
 ##### `Queue.enqueue(item1 [, item2...])`
+
 Add one or more items to the queue.  Item1 will be at the head of the queue and the first item to be dequeued.
 
 ##### `Queue.dequeue()`
+
 Remove the item at the head of the queue.
 
 ##### `Queue.peek()`
+
 Examine the item at the head of the queue but do not remove it.

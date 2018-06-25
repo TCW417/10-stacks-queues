@@ -2,7 +2,7 @@
 
 const Node = require('./node');
 
-const Queue = module.exports = class {
+const Queue = module.exports = class { /* eslint-disable-line */
   constructor() {
     this.next = null;
     this.prev = null;
