@@ -2,7 +2,7 @@
 
 const Node = require('./node');
 
-const Stack = module.exports = class {
+const Stack = module.exports = class { /* eslint-disable-line */
   constructor() {
     this.next = null;
     this.prev = null;
@@ -43,6 +43,6 @@ const Stack = module.exports = class {
   }
 
   peek() {
-      return this.prev ? this.prev.value : null;
+    return this.prev ? this.prev.value : null;
   }
-}
+};
